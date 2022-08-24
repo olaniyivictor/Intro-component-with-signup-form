@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@600&family=Karla:ital,wght@0,700;1,300&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@600&family=Karla:ital,wght@0,700;1,300&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.root{
+--Red: hsl(0, 100%, 74%) ;
+---Green: hsl(154, 59%, 51%);
+---Blue: hsl(248, 32%, 49%);
+--DarkBlue: hsl(249, 10%, 26%) ;
+---GrayishBlue: hsl(246, 25%, 77%);
+}
+html{
+    font-size: 62.5%;
+    font-family: "Bai jaamjuree",sans-serif;;
+}
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(0, 100%, 74%);
+    overflow-x: hidden;
+    position: relative;
+}
+h1{
+    padding-top: 15%;
+    padding-left: 10%;
+    color:white;
+    font-size: 4rem;
+}
+p{
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2.3rem;
+}
+.div{
+    margin-left: 60%;
+    margin-top:-24%;
+}
+.button{
+    background-color: hsl(228, 45%, 44%);
+    border: none;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: 1.4rem;
+    padding-bottom:1.4rem;
+    width: 80%;
+    height: 5%;
+    color:white ;
+    border-radius: 0.4rem;
+
+}
+span{
+    color:hsl(246, 25%, 77%)
+}
+#form{
+    width: 80%;
+    height:90%;
+    background-color: white;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 0.7rem;
+}
+.input-control{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+
+    
+    text-align: right;
+    justify-content: space-evenly;
+    color: hsl(0, 100%, 74%);
+
+
+}
+.input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 0.4rem;
+    display: block;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-left: 5%;
+    width: 90%;
+    height: 20%;
+    margin-top: 5%;
+}
+h3{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.btn{
+    width: 95%;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 0.4rem;
+    color: white;
+}
+h4{
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 3%;
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+.span{
+    color: hsl(0, 100%, 74%);
+}
+.input-control input:focus{
+    outline: 0;
+}
+.input-control.success input{
+    border-color: hsl(154, 59%, 51%);
+}
+.input-control.error input{
+    border-color: hsl(0, 100%, 74%);
+}
+@media screen and (max-width:1440px) {
+    h1{
+        padding-top: 15%;
+        padding-left: 10%;
+        color:white;
+        font-size: 8rem;
+    }
+    p{
+        padding-top: 2%;
+        padding-left: 10%;
+        font-size: 2.5rem;
+        color: white;
+        line-height: 2.2rem;
+    }
+    
+}
+@media screen and (max-width:1373px) {
+    h1{
+        font-size:7.5rem ;
+    }
+    p{
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width:1240px) {
+    h1{
+        font-size: 7.1rem;
+    }
+    
+}
+@media screen and (max-width:1163px) {
+    h1{
+        font-size: 6.5rem;
+    }
+    
+}
+@media screen and (max-width:1121px) {
+    h1{
+        font-size:6.3rem ;
+    }
+    p{
+        font-size: 1.9rem;
+    }
+    
+}
+@media screen and (max-width:1042px) {
+    h1{
+        font-size: 6.1rem;
+    }
+    p{
+        font-size: 1.7rem;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    h1{
+        font-size:5.1rem;
+    }
+    p{
+        font-size:1.5rem ;
+    }
+    
+}
+@media screen and (max-width:847px) {
+    h1{
+        font-size:4.8rem ;
+    }
+    
+}
+@media screen and (max-width:829px) {
+    p{
+        font-size: 1.4rem;
+        position: relative;
+        top: 9rem;
+    }
+    h1{
+        position: relative;
+        top: 10rem;
+    }
+    #form{
+        width: 90%;
+        height:90%;
+        background-color: white;
+        margin-top: 3%;
+        padding-bottom: 3%;
+        border-radius: 0.7rem;
+    }
+    .button{
+        background-color: hsl(228, 45%, 44%);
+        border: none;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        padding-top: 1.4rem;
+        padding-bottom:1.4rem;
+        width: 90%;
+        height: 5%;
+        color:white ;
+        border-radius: 0.4rem;
+    
+    }
+    
+}
+@media screen and (max-width:780px) {
+    h1{
+        font-size:4.5rem ;
+    }
+    
+}
+@media screen and (max-width:770px) {
+    p{
+        font-size: 1.3rem;
+    }
+    
+}
+@media screen and (max-width:735px){
+    h1{
+        font-size: 4.3rem;
+    }
+    
+}
+@media screen and (max-width:710px) {
+    p{
+        font-size: 1.25rem;
+    }
+    h1{
+        font-size: 4.1rem;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .div{
+        margin-left: 10%;
+        margin-top:30%;
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        padding-top: 4%;
+        padding-left: 25%;
+        color:white;
+        font-size: 4rem;
+        
+    }
+    p{
+        padding-left: 25%;
+        padding-top: -4%;
+    }
+}
+@media screen and (max-width:581px) {
+    h1{
+        padding-left:23 ;
+    }
+    
+}
+@media screen and (max-width:535px) {
+    h1{
+        padding-left: 22%;
+    }
+    p{
+        padding-left: 23%;
+    }
+}
+@media screen and (max-width:471px) {
+    h1{
+        padding-left: 17%;
+    }
+    p{
+        padding-left: 17%;
+        font-size: 1.15rem;
+    }
+    body{
+        background-image: url(./images/bg-intro-mobile.png);
+        overflow: hidden;
+    }
+    #form{
+        width: 90%;
+        height:100%;
+        background-color: white;
+        margin-top: 3%;
+        padding-bottom: 3%;
+        border-radius: 0.7rem;
+    }
+    
+}
+@media screen and (max-width:428px) {
+    h1{
+        padding-left: 15%;
+    
+    }p{
+        padding-left: 15%;
+        font-size: 1.15rem;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    h1{
+        padding-left:12% ;
+        font-size: 3.8rem;
+    }
+    p{
+        padding-left: 12%;
+        font-size: 1.05rem;
+    }
+}
